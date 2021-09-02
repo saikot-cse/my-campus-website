@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* header section  */
+.header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7) ), url(../images/background-image/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 350px;
+}
+nav .nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.nav-links ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #000 ;
+    transition: 0.5s;
+}
+.nav-links ul li a:hover:after{
+    width: 100%;
+}
+.text-box{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    color: #fff;
+}
+.text-box h1{
+    font-size: 42px;
+}
+.text-box article{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    padding: 1% 5%;
+}
+.visit-btn{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.visit-btn:hover{
+    border: 1px solid #000;
+    background: rgb(172, 165, 165);
+    color: #000;
+    transition: 1s; 
+}
+/* Course Section  */
+.course{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    
+    color: #000;
+}
+h1{
+    font-size: 36px;    
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.course-info{
+    background: #18528b;
+    padding-bottom: 30px;
+}
+article{
+    
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 10px 30px 10px;
+}
+/* campus section  */
+.campus{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
+p{
+    color: #777;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 10px 30px 10px;
+    padding: 1% 5%;
+    background: cornsilk;
+}
+.campus img{
+    width: 100%;
+    padding: 1% 5%;
+}
+/* Facilities Section  */
+.facilities{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.facilities-col{
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+h3{
+    padding: 20px 10px;
+}
+.facilities-col img{
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+}
+.row{
+    padding: 1% 5%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+/* Call to Action  */
+.callToAction{
+   margin: 50px auto; 
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7) ), url(../images/background-image/banner2.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+   text-align: center;
+   padding: 100px 0;
+   color: #fff;
+}
+.footer{
+    text-align: center;
+}
+.footer h4{
+    font-size: 20px;
+}
+.icons{
+    font-size: 30px;
+    
+}
+.icons .fab{
+    padding: 10px 20px;  
+}
+
+/* About Page  */
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7) ), url(../images/background-image/background.jpg);
+    text-align: center;
+    color: #fff;
+    padding-top: 120px;
+}
+.about-info{
+    padding: 1% 5%;
+    color: #000;
+}
+.about-bubt img{
+    padding: 1% 5%;
+}
